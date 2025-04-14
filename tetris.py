@@ -19,6 +19,7 @@ class Tetris:
         for block in self.next_tetromino.blocks:
             offseted_block = block.block.move(0.47 * FIELD_RES[0], 0.5 * FIELD_RES[1])
             pg.draw.rect(self.app.screen, pg.Color(block.color), offseted_block)
+            pg.draw.rect(self.app.screen, GRID_COLOR, offseted_block, width=1)
 
     def draw_grid(self):
         for x in range(FIELD_WIDTH):
@@ -98,7 +99,6 @@ class Tetris:
         self.clear_completed_lines()
         self.process_cleared_lines()
         self.app.screen.fill("black")
-        self.draw_next_block()
         self.tetromino.draw()
         self.draw_grid()
 

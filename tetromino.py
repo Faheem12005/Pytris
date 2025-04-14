@@ -95,6 +95,8 @@ class Tetromino:
     def draw(self):
         for block in self.blocks:
             pg.draw.rect(self.tetris.app.screen, pg.Color(block.color), block.block)
+            pg.draw.rect(self.tetris.app.screen, GRID_COLOR, block.block, width=1)
+
 
     def update(self, direction):
         self.move(direction)

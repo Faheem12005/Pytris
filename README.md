@@ -28,7 +28,7 @@ Once you have cloned the repository and installed the dependencies, navigate to 
 
 ```bash
 cd pytris
-python main.py
+python app.py
 ```
 
 The game window should pop up, and you can start playing Tetris!
