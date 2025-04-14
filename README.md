@@ -1,5 +1,6 @@
 # Pytris
-![image](https://github.com/user-attachments/assets/91729bb1-4256-4718-9792-994a383cbbed)
+![image](https://github.com/user-attachments/assets/bd8823de-1e6d-441e-a841-23bd03bfb5cf)
+
 
 ## Installation
 
